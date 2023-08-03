@@ -10,3 +10,6 @@ def hello(name):
     return f'Hello, {name}, from mymod!'
 
 print(f'Goodbye from mymod!')
+
+if __name__ == '__main__':  # this is only true when the module is run as a program (i.e., not imported)
+    print('Never see this when imported!')
