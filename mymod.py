@@ -12,4 +12,6 @@ def hello(name):
 print(f'Goodbye from mymod!')
 
 if __name__ == '__main__':  # this is only true when the module is run as a program (i.e., not imported)
-    print('Never see this when imported!')
+    print('You ran mymod.py as a program; you did not import it.')
+else:
+    print('You imported mymod.py!')
