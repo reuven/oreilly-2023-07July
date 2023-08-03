@@ -1,3 +1,3 @@
-ddef square(n):
+def square(n):
     return n ** 2
     
